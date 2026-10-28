@@ -1,0 +1,387 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cinematic_interactions.craft": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "22",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "6",
+            "math.sin(query.anim_time * 90) * 4",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-62 + math.sin(query.anim_time * 540) * 18",
+            "-8",
+            "4"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-55 - math.sin(query.anim_time * 540) * 14",
+            "10",
+            "-4"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.smelt": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "18",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "10",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-58 + math.sin(query.anim_time * 160) * 12",
+            "-6",
+            "0"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-35",
+            "12",
+            "-6"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.hammer": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "24",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "6 + math.abs(math.sin(query.anim_time * 200)) * 6",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-150 + math.abs(math.sin(query.anim_time * 200)) * 105",
+            "-10",
+            "6"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-48",
+            "18",
+            "-6"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.enchant": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "12 + math.sin(query.anim_time * 60) * 3",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-82 + math.sin(query.anim_time * 90) * 6",
+            "-14",
+            "6 + math.sin(query.anim_time * 70) * 4"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-82 + math.cos(query.anim_time * 90) * 6",
+            "14",
+            "-6 - math.sin(query.anim_time * 70) * 4"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.read": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "26 + math.sin(query.anim_time * 40) * 2",
+            "math.sin(query.anim_time * 30) * 6",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-52",
+            "-20 + math.pow(math.abs(math.sin(query.anim_time * 45)), 8) * 45",
+            "8"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-52",
+            "20",
+            "-8"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.warm": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "16",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "8",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-68",
+            "-18 + math.sin(query.anim_time * 420) * 7",
+            "4"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-68",
+            "18 + math.sin(query.anim_time * 420) * 7",
+            "-4"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.beacon": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "-38 + math.sin(query.anim_time * 50) * 3",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "-4",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-158 + math.sin(query.anim_time * 70) * 5",
+            "0",
+            "14"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-158 + math.cos(query.anim_time * 70) * 5",
+            "0",
+            "-14"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.grind": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "18",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-60 + math.sin(query.anim_time * 300) * 26",
+            "math.cos(query.anim_time * 300) * 18",
+            "4"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-40",
+            "14",
+            "-6"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.cut": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "24",
+            "0",
+            "0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "6",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-56 + math.sin(query.anim_time * 220) * 10",
+            "-12 + math.sin(query.anim_time * 220) * 10",
+            "0"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-56 + math.sin(query.anim_time * 220) * 10",
+            "12 + math.sin(query.anim_time * 220) * 10",
+            "0"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.brew": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "20",
+            "0",
+            "0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-70 + math.sin(query.anim_time * 130) * 6",
+            "-10",
+            "math.sin(query.anim_time * 260) * 8"
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-32",
+            "16",
+            "-8"
+          ]
+        }
+      }
+    },
+    "animation.cinematic_interactions.jukebox": {
+      "animation_length": 2.0,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4": [
+              22,
+              0,
+              0
+            ],
+            "1.5": [
+              18,
+              0,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "rightArm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              -85,
+              -10,
+              0
+            ],
+            "0.9": [
+              -70,
+              -10,
+              0
+            ],
+            "1.4": [
+              -25,
+              0,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "leftArm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              -20,
+              8,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.cinematic_interactions.reset": {
+      "animation_length": 0.05
+    }
+  }
+}

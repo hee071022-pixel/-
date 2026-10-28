@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cinematic Interactions (RP)",
+    "description": "Cinematic Interactions의 플레이어 애니메이션 리소스 팩입니다.",
+    "uuid": "684741cd-1870-43f9-bc8e-f4db43320ab8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f576ccdc-1474-4b71-a012-8d5062dd3ce8",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "uuid": "8cb00778-02eb-43bf-93a9-82eed6d596dd", "version": [1, 0, 0] }
+  ]
+}

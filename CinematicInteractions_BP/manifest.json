@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cinematic Interactions (BP)",
+    "description": "작업대·화로·모루 등과 상호작용할 때 시네마틱 카메라와 팔 애니메이션을 재생합니다.",
+    "uuid": "8cb00778-02eb-43bf-93a9-82eed6d596dd",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4674cb14-40c1-4581-8416-af9121701a57",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c0af8bf9-d9a5-4e3f-bc77-49b269769f3c",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "2.0.0" },
+    { "uuid": "684741cd-1870-43f9-bc8e-f4db43320ab8", "version": [1, 0, 0] }
+  ]
+}
